@@ -1,10 +1,8 @@
-Terdapat 3 bagian dari project ini, yaitu
-1. Deteksi komunitas dengan strategi disassembly greedy modularity, untuk meningkatkan modularity dari algoritma deteksi komunitas greedy modularity. Untuk meningkatkan modularitas tersebut dengan eksplorasi yaitu lepas simpul dan pecah komunitas. Terdapat empat strategi melepas simpul yaitu melepas simpul secara random/acak dengan distribusi uniform, melepas simpul lemah, melepas simpul yang mempunyai nilai embeddedness rendah, serta melepas simpul yang tidak membentuk triad. Terdapat lima strategi membongkar komunitas yaitu membongkar komunitas secara acak dengan distribusi uniform, membongkar komunitas yang lemah, membongkar komunitas dengan internal edge density yang rendah, membongkar komunitas dengan triad participation ratio yang rendah serta komunitas dengan conductance yang tinggi.
-2. Implementasi deteksi komunitas pada protein target kanker paru, dengan tujuan untuk menentukan apakah hasil komunitas yang terbangun secara struktural berasosiasi dengan komunitas secara fungsional, yang hasilnya dapat ditelusuri menggunakan aplikasi enrichment analysis seperti Metascape. 
-3. Community consideration centrality, yaitu pengukuran centrality dengan mempertimbangkan komunitas yang telah terbentuk. Terdapat tiga centrality yang dikembangkan yaitu community consideration degree centrality, community consideration closeness centrality, serta community consideration betweenness centrality.Hasil yang diperoleh digunakan untuk mengungkapkan hallmark of cancer secara in silico.
 
-Algoritma yang dikembangkan ini merupakan bagian dari naskah publikasi sebagai berikut
-1. H. C. Rustamaji, W. A. Kusuma, S. Nurdiati and I. Batubara, "Community-Consideration Centrality, a Case Study of Lung Cancer Proteins," in IEEE Access, vol. 11, pp. 134340-134354, 2023, doi: 10.1109/ACCESS.2023.3337375. keywords: {Proteins;Lung cancer;Network analyzers;Dolphins;Databases;Toy manufacturing industry;Time complexity;Medical diagnostic imaging;Medical treatment;Degree centrality;closeness centrality;betweenness centrality;the hallmark of cancer},
-2. Rustamaji HC, Kusuma WA, Nurdiati S, Batubara I. Community detection with Greedy Modularity disassembly strategy. Sci Rep. 2024 Feb 26;14(1):4694. doi: 10.1038/s41598-024-55190-7. PMID: 38409331; PMCID: PMC10897298.
-3. 
+Community consideration centrality, yaitu pengukuran centrality dengan mempertimbangkan komunitas yang telah terbentuk. Terdapat tiga centrality yang dikembangkan yaitu community consideration degree centrality, community consideration closeness centrality, serta community consideration betweenness centrality.Hasil yang diperoleh digunakan untuk mengungkapkan hallmark of cancer secara in silico.
+
+Algoritma yang dikembangkan ini merupakan bagian dari naskah publikasi 
+
+H. C. Rustamaji, W. A. Kusuma, S. Nurdiati and I. Batubara, "Community-Consideration Centrality, a Case Study of Lung Cancer Proteins," in IEEE Access, vol. 11, pp. 134340-134354, 2023, doi: 10.1109/ACCESS.2023.3337375. 
+
 
